@@ -11,7 +11,7 @@ export default function Main() {
             Convert your images effortlessly between popular formats such as
             JPG, PNG, SVG, GIF, and PDF
           </p>
-          <div className="flex ">
+          <div className="md:flex ">
               <div className="flex mt-3 w-48 h-14 bg-gray-800 hover:bg-gray-700 text-white rounded-lg items-center justify-center">
                 <div className="mr-3">
                   <svg viewBox="30 336.7 120.9 129.2" width="30">
@@ -40,7 +40,7 @@ export default function Main() {
                   </div>
                 </a>
               </div>
-              <div className="flex mt-3 ml-4 w-48 h-14 bg-transparent hover:bg-gray-300 text-black border border-black rounded-xl items-center justify-center">
+              <div className="flex mt-3 md:ml-4 w-48 h-14 bg-transparent hover:bg-gray-300 text-black border border-black rounded-xl items-center justify-center">
                 <div className="mr-3">
                   <svg viewBox="0 0 384 512" width="30">
                     <path
@@ -58,27 +58,27 @@ export default function Main() {
               </div>
             </div>
         </div>
-        <div className="xl:mr-44 flex sm:mr-0 sm:mb-28 mb-0 lg:mb-0 md:mr-48 md:ml-20">
+        <div className="xl:mr-44 md:flex p-4 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 md:mr-48 md:ml-20">
           <img
-            className="w-80 md:ml-1 border-2 border-gray-500 rounded-xl"
+            className="w-64 md:ml-1 border-2 m-2 border-gray-500 rounded-xl"
             alt="iPhone-12"
             src="/images/main-1.png"
           ></img>
           <img
-            className="w-80 h md:ml-3 border-2 border-gray-500 rounded-xl"
+            className="w-64 m-2 border-2 border-gray-500 rounded-xl"
             alt="iPhone-12"
             src="/images/main-2.png"
           ></img>
          </div>
       </div>
 
-      <div className="grr max-w-7xl pt-20 mx-auto text-center">
-        <h1 className="mb-8 text-3xl Avenir font-semibold text-gray-700">
+      <div className="grr max-w-7xl md:pt-20 mx-auto text-center">
+        <h1 className="mb-8 text-xl md:text-3xl Avenir font-semibold text-gray-700">
         Our mobile app empowers you to easily convert images to popular formats like JPG, PNG, SVG, GIF, or PDF, in just a few taps.
         </h1>
         <div className="container flex flex-col items-center justify-center mx-auto rounded-lg ">
           <img
-            className="object-cover object-center w-3/4 mb-10  rounded-lg shadow-md"
+            className="object-cover object-center md:w-3/4 mb-10 md:rounded-lg shadow-md"
             alt="Placeholder Image"
             src="./images/placeholder1.png"
           ></img>
@@ -86,11 +86,11 @@ export default function Main() {
       </div>
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-          <div className="py-24 md:py-36">
-            <h1 className="mb-5 text-6xl Avenir font-semibold text-gray-900">
+          <div className="py-16 md:py-36">
+            <h1 className="mb-5 text-xl md:text-6xl Avenir font-semibold text-gray-900">
               Subscribe to our newsletter
             </h1>
-            <h1 className="mb-9 text-2xl font-semibold text-gray-600">
+            <h1 className="mb-9 text-md md:text-2xl font-semibold text-gray-600">
               Enter your email address and get our newsletters straight away.
             </h1>
             <input
@@ -98,7 +98,7 @@ export default function Main() {
               name="email"
               type="email"
               autoComplete="email"
-              className="border border-gray-600 w-1/4 pr-2 pl-2 py-3 mt-2 rounded-md text-gray-800 font-semibold hover:border-gray-900"
+              className="border border-gray-600 md:w-1/4 pr-2 pl-2 py-3 mt-2 rounded-md text-gray-800 font-semibold hover:border-gray-900"
             ></input>{" "}
             <a
               className="inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium text-white transition duration-500 ease-in-out transform  border rounded-lg bg-gray-700"
